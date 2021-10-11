@@ -18,6 +18,22 @@
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+        .navegacao{
+            width: auto ;
+            height: 50px;
+            padding-top: 10px;
+            padding-left:25px; 
+            background: linear-gradient(0, #120c56, #000000); 
+            border-radius: 30px;
+        } 
+        .assuntos{
+            font-size: 16px;
+            padding-right: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: white;
+        }
 
     </style>
 </head>
@@ -27,27 +43,20 @@
             Onde você aprende Matemática 
         </h1>
     </div>
-    <nav class="navbar navbar-light bg-light">
-        <div class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            <img src="" alt="">
-          </a>
-          <a class="navbar-brand" href="#">
-            1°  Logaritmo e Funçõe Logarítmica 
-          </a>
-
-          <a class="navbar-brand" href="#">
-            2° Trigonometria na circunferência e Números complexos
+    <div class="navegacao">
+        <a class="assuntos" href="">
+        1°  Logaritmo e Funçõe Logarítmica 
         </a>
-        <br>
-        <a class="navbar-brand" href="#">
+
+        <a class="assuntos" href="#">
+        2° Trigonometria na circunferência e Números complexos
+        </a>
+        <a class="assuntos" href="#">
             3° Análise Combinatória e Probabilidade 
         </a>
-        <br>
-        <a class="navbar-brand" href="#">
-            4° Geometria analitica(Parte de Cônicas), Limites e Derivadas.
+        <a class="assuntos" href="#">
+            4° Geometria analitica, Limites e Derivadas.
         </a>
-        </div>
-      </nav>
-</body>
+    </div>
+ </body>
 </html>
