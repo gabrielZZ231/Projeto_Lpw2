@@ -1,3 +1,53 @@
-.container{
-    background-color: blue;
+body{
+    background-color:#C0C0C0;      
+    }
+#nome-titulo{
+    color:white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    background: #4169E1;
+             
+
+} 
+.assuntos{
+    font-size: 16px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:black;
+    padding-top: 200px;
+    padding-left:10px;
+}
+a:hover{
+    color: white;
+     
+}
+.navbar-brand{
+    font-size:16px;
+    color:black;
+
+}
+
+.form-group{
+    background:white;
+    width:50%;
+    height:20%;
+    border-radius:20px;
+    margin-left:10px;
+    margin-top:20px;
+    padding-left:10px;
+}
+
+#textinho{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+               
+}
+#form{
+  display:inline;
 }
