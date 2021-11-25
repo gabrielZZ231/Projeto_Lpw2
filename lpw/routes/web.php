@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PrimeiroController;
+use App\Http\Controllers\SegundoController;
+use App\Http\Controllers\TerceiroController;
+use App\Http\Controllers\QuartoController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route :: view ( '/' , 'index/index' );
+
+Route::get('/primeiro_ano', [PrimeiroController::class, 'index']);
+
+Route::get('/segundo_ano', [SegundoController::class, 'index']);
+
+Route::get('/terceiro_ano', [TerceiroController::class, 'index']);
+
+Route::get('/quarto_ano', [QuartoController::class, 'index']);
+
