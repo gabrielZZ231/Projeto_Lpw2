@@ -7,10 +7,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container-fluid{
-    background: #4169E1;
-             
-
+    background: #4169E1;        
 } 
+
 .assuntos{
     font-size: 16px;
     padding-right: 10px;
@@ -19,10 +18,12 @@ body{
     padding-top: 200px;
     padding-left:10px;
 }
+
 a:hover{
     color: white;
      
 }
+
 .navbar-brand{
     margin-bottom: 3%;
 
@@ -43,16 +44,150 @@ a:hover{
     padding-left:10px;
 }
 
-#textinho{
+
+#form{
+  display:inline;
+}
+
+
+/* banner*/
+.foco{
+    background: url('../assets/banner.png') no-repeat center;
     width: 100%;
+    height: 574px;
+    background-size: cover;
+}
+
+#textinho{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 6px black;
+    text-shadow: 2px 3px 6px rgb(0, 0, 0);
+    color: aliceblue;
     text-align: center;
-               
+    line-height: 60px;
+    padding-top: 375px;
 }
-#form{
-  display:inline;
+
+/* serviços*/
+.srvs{
+    height: 100%;
+    width: 100%;
+
+}
+
+.srvs h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.srvs li{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.serv-img{
+    text-align: center;
+    padding-top: 45px;
+}
+
+.serv-img h3{
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.serv-img p{
+    font-family: Verdana;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 35px;
+}
+
+.ass li{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.ass h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgb(37, 37, 37);
+}
+.ass h3{
+    color: white;
+    text-shadow: 2px 3px 6px rgb(37, 37, 37);
+    line-height: 25px;
+    
+}
+.inner {
+    display: block;
+   border-radius: 6px;
+   font-size: 18px;
+   font-weight: 700;
+   width: 100%;
+   color: #04090e;
+   height: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.ass{
+    background-color: rgb(189, 27, 62);
+}
+.outer {
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(to right, #04a6f3, #0072ff);
+    width: 150px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.assS li{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.assS h3{
+    color: white;
+    text-shadow: 2px 3px 6px rgb(37, 37, 37);
+    line-height: 25px;
+}
+
+.ner {
+    display: block;
+   border-radius: 6px;
+   font-size: 18px;
+   font-weight: 700;
+   width: 100%;
+   color: #04090e;
+   height: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.outerS {
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    background: linear-gradient(to right, #04a6f3, #0072ff);
+    width: 150px;
+    margin-left: 65px;
+    margin-bottom: 20px;
 }
 
