@@ -12,6 +12,7 @@
     background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
     background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);} 
 
+
 body{
     overflow: visible !important;
     background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
@@ -53,6 +54,9 @@ body{
     padding-left:10px;
 }
 
+
+
+
 a:hover{
     color: white;
      
@@ -62,11 +66,14 @@ a:hover{
     margin-bottom: 5%;
 
 }
-
-.bg-dark  {
-    background-color: #8d99ae!important;
-    
+.navbar-brand{
+    width: 70px;
+    height: 20px;
 }
+.collapse{
+    font-size: 20px;
+}
+
 
 .form-group{
     background:white;
@@ -258,6 +265,7 @@ a:hover{
    padding-bottom: 10px;
 }
 .item{
+
     right: 0;
     left: auto;
     position:fixed;

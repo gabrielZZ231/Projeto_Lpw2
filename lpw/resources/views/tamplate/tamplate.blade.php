@@ -28,14 +28,14 @@
                 <li><a class="dropdown-item" href="{{asset('/primeiro_ano')}}">1° Logaritmo e Função Logarítmica</a></li>
                 <li><a class="dropdown-item" href="{{asset('/segundo_ano')}}">2° Trigonometria na circunferência e Números complexos</a></li>
                 <li><a class="dropdown-item" href="{{asset('/terceiro_ano')}}">3° Análise Combinatória e Probabilidade</a></li>
-                <li><a class="dropdown-item" href="{{asset('/quarto_ano')}}">4° Geometria analitica, Limites e Derivadas.</a></li>
+                <li><a class="dropdown-item" href="{{asset('/quarto_ano')}}">4° Geometria Espacial</a></li>
             </ul>
             </li>
         </ul>
         </div>
     </div>
     </nav>
-     @yield('conteudo')
+     @yield('conteudo') 
  </body>
  <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
