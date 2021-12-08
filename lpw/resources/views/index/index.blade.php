@@ -2,12 +2,6 @@
 @section('conteudo')
 <div class="index">
 
-
-  <!-- Banner!-->
-      
-                   
-           
-
     <!-- Serviços!-->  
   <h2 id = "textinho">Resumos e exercícios de <br>Matemática</h2>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

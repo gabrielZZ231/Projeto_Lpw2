@@ -9,49 +9,26 @@
            
 
     <!-- Serviços!-->  
-  <h2 id = "textinho">Resumos e exercícios de <br>Matemática</h2>
+    <h2 id = "textinho">Resumos e exercícios de N.<br> Complexos</h2>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
         <div class = "serv-img"> 
-          <img class= "img" src="assets/livrosEmpilhados.png" alt="img assuntos"  onclick="segundo_ano()">
-            <h3>Conteúdo</h3>   
-            <p>Recomendados, mas não <br>de nossa autoria.</p>
+        <a href="https://www.todamateria.com.br/numeros-complexos/"><img class = "img"  src="assets/NumerosComplexos.png" alt="Imagem de Exercícios" onclick="segundo_ano()" ></a>
+          <h3>Resumos N. <br> Complexos</h3>   
+              <p>Recomendados, mas não <br>de nossa autoria.</p>
             </div>
       </div>
       
       <div class="item">
         <div class = "serv-img"> 
           <img class = "img"  src="assets/exerciciosMat.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
+          <h3>Exercícios Logarítimo</h3>   
               <p>Recomendados, mas não <br>de nossa autoria.</p>
           </div>
       </div>
-
-      <div class="item">
-        <div class = "serv-img"> 
-          <img class = "img"  src="assets/log.png" alt="Imagem de Exercícios" onclick="segundo_ano()" >
-          <h3>Conteúdo</h3>   
-              <p>Recomendados, mas não <br>de nossa autoria.</p>
-          </div>
-      </div>
-
-      <div class="item">
-        <div class = "serv-img" > 
-          <img class = "img"  src="assets/geoAna.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
-              <p>Recomendados, mas não <br>de nossa autoria.</p>
-          </div>
-      </div>
-
-       <div class="item">
-        <div class = "serv-img"> 
-          <img class = "img"  src="assets/trigonometria.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
-              <p>Recomendados, mas não <br>de nossa autoria.</p>
-          </div>
-      </div>
-  </div>
+   
+  
   <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>

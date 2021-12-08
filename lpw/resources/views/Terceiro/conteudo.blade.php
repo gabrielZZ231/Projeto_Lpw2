@@ -9,13 +9,13 @@
            
 
     <!-- Serviços!-->  
-  <h2 id = "textinho">Resumos e exercícios de <br>Matemática</h2>
+  <h2 id = "textinho">Resumos e exercícios de <br>Análise C. e Probabilidade</h2>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
         <div class = "serv-img"> 
-          <img class= "img" src="assets/livrosEmpilhados.png" alt="img assuntos"  onclick="segundo_ano()">
-            <h3>Conteúdo</h3>   
+          <a href="https://www.todamateria.com.br/analise-combinatoria/"><img class= "img" src="assets/livrosEmpilhados.png" alt="img assuntos"  onclick="segundo_ano()"></a>
+            <h3>Resumos de A. <br>Combinatória</h3>   
             <p>Recomendados, mas não <br>de nossa autoria.</p>
             </div>
       </div>
@@ -23,15 +23,15 @@
       <div class="item">
         <div class = "serv-img"> 
           <img class = "img"  src="assets/exerciciosMat.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
+          <h3>Exercicios de A. <br>Combinatória </h3>   
               <p>Recomendados, mas não <br>de nossa autoria.</p>
           </div>
       </div>
 
       <div class="item">
         <div class = "serv-img"> 
-          <img class = "img"  src="assets/log.png" alt="Imagem de Exercícios" onclick="segundo_ano()" >
-          <h3>Conteúdo</h3>   
+          <a href="https://www.todamateria.com.br/probabilidade/"><img class = "img"  src="assets/AnaliseCombinatoriaeProbabilidade.png" alt="Imagem de Exercícios" onclick="segundo_ano()" ></a>
+          <h3>Resumos de  <br> Probabilidade</h3>   
               <p>Recomendados, mas não <br>de nossa autoria.</p>
           </div>
       </div>
@@ -39,17 +39,11 @@
       <div class="item">
         <div class = "serv-img" > 
           <img class = "img"  src="assets/geoAna.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
+          <h3>Exercícios de <br> Probabilidade</h3>   
               <p>Recomendados, mas não <br>de nossa autoria.</p>
           </div>
       </div>
 
-       <div class="item">
-        <div class = "serv-img"> 
-          <img class = "img"  src="assets/trigonometria.png" alt="Imagem de Exercícios" onclick="segundo_ano()">
-          <h3>Conteúdo</h3>   
-              <p>Recomendados, mas não <br>de nossa autoria.</p>
-          </div>
       </div>
   </div>
   <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
