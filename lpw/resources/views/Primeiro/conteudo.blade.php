@@ -8,7 +8,7 @@
                    
            
 
-  <h2 id = "textinho">Resumos e exercícios de <br> Trigonometria</h2>
+  <h2 id = "textinho">Resumos e exercícios de <br> Logarítimo</h2>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">

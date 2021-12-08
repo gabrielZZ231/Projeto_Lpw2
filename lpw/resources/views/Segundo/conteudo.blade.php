@@ -9,7 +9,7 @@
            
 
     <!-- Serviços!-->  
-    <h2 id = "textinho">Resumos e exercícios de N.<br> Complexos</h2>
+    <h2 id = "textinho">Resumos e exercícios de N.<br> Complexos e <br> Círculo Trigonométrico </h2>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
@@ -30,14 +30,14 @@
     <div class="item">
       <div class = "serv-img"> 
         <a href="https://www.todamateria.com.br/circulo-trigonometrico/ "><img class= "img" src="assets/circulo.jpg" alt="img assuntos"  ></a>
-          <h3>Resumos de Circulo Trigonometrico</h3>   
+          <h3>Resumos de Círculo Trigonométrico</h3>   
           <p>Recomendados, mas não <br>de nossa autoria.</p>
       </div>
     </div>
     <div class="item">
       <div class = "serv-img"> 
         <a href="https://wordwall.net/play/26265/102/803"><img class= "img" src="//az779572.vo.msecnd.net/screens-200/6f0790f5fbbe4c3caac60568ab69c55d"  alt="img assuntos"  ></a>
-          <h3>Exercícios de Circulo Trigonometrico</h3>   
+          <h3>Exercícios de Círculo Trigonométrico</h3>   
           <p>Recomendados, mas não <br>de nossa autoria.</p>
       </div>
     </div>
